@@ -44,4 +44,6 @@ int binary_tree_is_root(const binary_tree_t *node);
 
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 
+size_t binary_tree_height(const binary_tree_t *tree);
+
 #endif
