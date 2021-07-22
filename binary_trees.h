@@ -64,4 +64,11 @@ size_t _binary_tree_height(const binary_tree_t *tree);
 
 int binary_tree_is_full(const binary_tree_t *tree);
 
+int binary_tree_is_perfect(const binary_tree_t *tree);
+
+size_t binary_recursion_depth(const binary_tree_t *tree);
+
+int perfect_tree(const binary_tree_t *tree, size_t depth, int level);
+
+
 #endif
