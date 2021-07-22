@@ -25,9 +25,6 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
  */
 int perfect_tree(const binary_tree_t *tree, size_t depth, int level)
 {
-	if (tree == NULL)
-		return (1);
-
 	if (tree->left == NULL && tree->right == NULL)
 	{
 		if (level == (int)depth)
