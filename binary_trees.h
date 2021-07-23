@@ -70,5 +70,6 @@ size_t binary_recursion_depth(const binary_tree_t *tree);
 
 int perfect_tree(const binary_tree_t *tree, size_t depth, int level);
 
+binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 
 #endif
